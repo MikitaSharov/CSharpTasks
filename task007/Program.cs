@@ -2,5 +2,5 @@
 
 Console.WriteLine("Enter length: ");
 int length = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"V = {length*length*length}");
-Console.WriteLine($"S = {length*length}");
+Console.WriteLine($"V = {length * length * length}");
+Console.WriteLine($"S = {length * length}");

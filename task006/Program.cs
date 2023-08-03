@@ -2,4 +2,4 @@
 
 Console.Write("Enter R: ");
 int R = Convert.ToInt32(Console.ReadLine());
-Console.Write($"d = {R*2}");
+Console.Write($"d = {R * 2}");
