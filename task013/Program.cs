@@ -2,6 +2,6 @@
 а) Фаренгейта; 
 б) Кельвина. */
 
-double tC = -273.15 + new Random().NextDouble()* (273.15+3000);
+double tC = -273.15 + new Random().NextDouble() * (273.15 + 3000);
 
-Console.WriteLine($"{tC:N2} C = {(9*tC/5 +32):N2} F = {(tC + 273.15):N2} K");
+Console.WriteLine($"{tC:N2} C = {(9 * tC / 5 + 32):N2} F = {(tC + 273.15):N2} K");
