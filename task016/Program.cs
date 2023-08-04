@@ -9,4 +9,7 @@
     int temp = a;
 
     Console.WriteLine($"a={a=b}, b={b=c}, c={c=temp}");
-    Console.WriteLine($"a={b = a}, b={b=temp}, c={c=b}");
+
+    temp = a;
+
+    Console.WriteLine($"a={a = c}, c={c=b}, b={b=temp}");
