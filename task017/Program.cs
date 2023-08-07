@@ -9,13 +9,13 @@
 // double a = -10 + new Random().NextDouble() * 20;
 
 double a = 2;
-double a2=a*a;
-double a4=a2*a2;
-double a6=a2*a2*a2;
-double a7=a2*a2*a2*a;
-double a8=a4*a4;
-double a9=a4*a4*a;
-double a10=a4*a4*a2;
+double a2 = a * a;
+double a4 = a2 * a2;
+double a6 = a2 * a2 * a2;
+double a7 = a2 * a2 * a2 * a;
+double a8 = a4 * a4;
+double a9 = a4 * a4 * a;
+double a10 = a4 * a4 * a2;
 
 Console.WriteLine($"a4 = {a4}");
 Console.WriteLine($"a6 = {a6}");
